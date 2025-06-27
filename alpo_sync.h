@@ -315,7 +315,6 @@ typedef unsigned short uint16_t;
 
 /**
     \defgroup status Status Codes
-    \brief Return values used by this library
 
     @{
 **/
