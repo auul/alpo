@@ -1484,7 +1484,7 @@ int ALPO_SYNC_API(rwlock_read_trylock)(alpo_sync_rwlock *rwlock);
   uninitialized rwlock or one not previously acquired by the calling thread will
   result in undefined behavior.
 
-    \param rwlock A pointer to the rwlock objcet
+    \param rwlock A pointer to the rwlock object
     \return One of `enum alpo_sync_status` indicating success or failure
 **/
 int ALPO_SYNC_API(rwlock_read_unlock)(alpo_sync_rwlock *rwlock);
